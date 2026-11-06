@@ -70,6 +70,8 @@ python "$SKILL_DIR/scripts/cctv_post.py" render \
 python "$SKILL_DIR/scripts/cctv_post.py" verify "$PROJECT_DIR/outputs/final.mp4"
 ```
 
+已把此前监控字体研究写入 [OSD参考与重建工艺](references/osd-and-post.md)：包含固定字格、字体来源、黑轮廓、柔化与极弱水平拖影，以及数字大小不一致和高清字幕过清的返修经验。没有新参考时默认沿用这套观感，有新参考时按新参考调整。
+
 详细说明：[Skill主流程](SKILL.md)、[模型转换与执行](references/generation-routing.md)、[OSD方法](references/osd-and-post.md)、[H3示例适配](references/h3-and-runninghub.md)、[验收标准](references/acceptance.md)。
 
 ## 测试与当前边界
