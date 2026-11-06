@@ -1,0 +1,21 @@
+{
+  "title": "固定监控视角的虚构小故事",
+  "generation": {
+    "route": "runninghub-h3-example",
+    "model": null,
+    "prompt_converter_skill": null,
+    "execution_tool": null,
+    "private_connection_config": null
+  },
+  "delivery": {"aspect_ratio": "16:9", "target_duration_seconds": 15, "audio": "现场声，无配乐"},
+  "camera": {"id": "CAM1", "place": "故事地点", "framing": "固定全景，动作发生时不变焦"},
+  "references": [{"id": "IMAGE_1", "file": "references/start.png", "role": "场景与人物的起始状态"}],
+  "props": [{"id": "PROP_1", "count": 1, "material": "木箱", "start": "地上", "end": "架子上"}],
+  "shots": [{
+    "id": "S001",
+    "start_state": "人物站在木箱前，架子位置固定",
+    "visible_beats": ["尝试单手提起，发现较重", "调整站姿，双手握住同一只箱子", "蹬地抬起并放到架上", "箱底接触架面后松手"],
+    "end_state": "一只木箱稳定留在架上，人物双手空着",
+    "prompt_file": "prompts/S001.txt"
+  }]
+}

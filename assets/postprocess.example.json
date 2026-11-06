@@ -1,0 +1,16 @@
+{
+  "output": {"width": 1280, "height": 720, "fps": 24, "fit": "contain", "crf": 18},
+  "segments": [
+    {"id": "S001", "file": "clips/S001.mp4", "start_seconds": 0, "duration_seconds": 8},
+    {"id": "S002", "file": "clips/S002.mp4", "start_seconds": 0, "duration_seconds": 6}
+  ],
+  "audio": {"mode": "segments", "fade_seconds": 0.03, "gain_db": -1.5, "peak_limit": 0.794328},
+  "osd": {
+    "font_dir": "work/fonts", "native_size": [854, 480],
+    "start_time": "09:00:00", "camera": "CAM1", "place": "故事地点",
+    "blur": 0.45, "echo": 0.07,
+    "clock_anchor": [0.07026, 0.03542],
+    "camera_anchor": [0.03279, 0.88333],
+    "place_anchor": [0.14520, 0.87917]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "base_url": "https://www.runninghub.ai",
+  "workflow_id": null,
+  "workflow_file": "work/workflow.private.json",
+  "instance_type": "default",
+  "output_nodes": [],
+  "result_node": null,
+  "conditioning_nodes": [],
+  "bindings": {
+    "prompt": {"node": null, "field": null},
+    "duration": {"node": null, "field": null},
+    "seed": {"node": null, "field": null}
+  },
+  "image_bindings": [],
+  "overrides": [],
+  "shots": [
+    {"id": "S001", "prompt_file": "prompts/S001.txt", "images": ["references/start.png"], "duration_seconds": 8, "seed": 42}
+  ]
+}

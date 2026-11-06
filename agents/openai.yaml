@@ -1,0 +1,4 @@
+interface:
+  display_name: "老监控视频生成"
+  short_description: "通用老监控制作流程，可更换生成服务，控制动作连续性并制作点阵OSD"
+  default_prompt: "使用 $retro-cctv-video 把这个故事做成老监控视频，先检查剧情与道具逻辑，再生成并添加点阵监控字样。"
